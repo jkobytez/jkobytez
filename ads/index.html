@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html style="height:100%">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>jkobytez Ads</title>
+  </head>
+  <body id="image" style="margin:0; background-size:cover; background-repeat: no-repeat;">
+    
+    <a href="https://googol.neocities.org" target="_blank" class="wholepage" id="imglink"></a>
+    
+    <script type="text/javascript">
+    //user2663434 did the code below, and melodicake used this and I'm using this thx to her now
+    var images = [
+        "https://googol.neocities.org/neolink/neolink_ad.gif",
+        "https://encounters-ltd.neocities.org/misc/(ad).png",
+        "https://billsworld.neocities.org/images/neolink-bill.gif",
+        "https://personally-comfy.neocities.org/i/300x250ad.png",
+        "https://hbaguette.neocities.org/ads/neolink.gif",
+        "https://springfield-online.neocities.org/s-o_neolink.jpg",
+        "https://vkccodebuilder.neocities.org/vkccb_adv.png",
+        "https://nekojiru.neocities.org/neolink.gif",
+        "https://therealman.neocities.org/neolink.jpg",
+        "https://neonriser.neocities.org/Titles/NeonRiser%20Title%20250x300.png",
+        "https://midyif.neocities.org/YEAH.png",
+        "https://pipe.miroware.io/5d2915a9989d575aefc9b066/advert.gif",
+        //"https://x-tremeproject.neocities.org/Neolink%20ads%20(size).png",
+        "https://alexanderjt.neocities.org/neolink/ad.gif",
+        "https://ethanf44.neocities.org/ethanf44-neolink.png",
+        "https://skolskoly.neocities.org/Media/neolink.png",
+        "https://i.imgur.com/tg8DD5X.png",
+        "https://wac.neocities.org/neoadwac.png",
+        "https://eawonlinux.neocities.org/images/eawonlinuxsite.png",
+        "https://i.imgur.com/TWkoppU.png",
+        "https://exo.pet/images/ads/EXOPET-AD1.gif",
+        "https://rainmirage.neocities.org/images/rains-space.png",
+        //"https://neo.aboutdavid.me/coronavirus/advertisement/ad.jpg",
+        "https://i.imgur.com/0JmJ0nF.gif",
+        "https://hecksn.neocities.org/ad.png",
+        "https://whirlboi.neocities.org/ad.png",
+        "https://wahid2012k.neocities.org/ad.png",
+        "https://joellmadrid.neocities.org/ad.png",
+        "https://cackldemonsam.neocities.org/ad.gif",
+        "https://hoylecake.neocities.org/img/hoylecake%20ad.png",
+        "https://necogames.neocities.org/AD.png",
+        "https://eligood.neocities.org/images/eligoodad.gif"];
+        
+    var links = [
+        "https://googol.neocities.org/neolink/",
+        "https://encounters-ltd.neocities.org/",
+        "https://billsworld.neocities.org/",
+        "https://personally-comfy.neocities.org/",
+        "https://hbaguette.neocities.org/",
+        "https://springfield-online.neocities.org/",
+        "https://vkccodebuilder.neocities.org/",
+        "https://nekojiru.neocities.org/",
+        "https://therealman.neocities.org",
+        "https://neonriser.neocities.org/",
+        "https://midyif.neocities.org/",
+        "https://arachnocinogen.neocities.org/",
+        //"https://x-tremeproject.neocities.org/5.%20Neptunia%20X/All%20Chapter/All-Chapter.html",
+        "https://alexanderjt.neocities.org/",
+        "https://ethanf44.neocities.org/",
+        "https://skolskoly.neocities.org/",
+        "https://hbaguette.neocities.org/other/bannerlink/",
+        "https://wac.neocities.org/",
+        "https://eawonlinux.neocities.org/",
+        "https://itsyaboypedro.neocities.org/",
+        "https://exo.pet/",
+        "https://rainmirage.neocities.org/",
+        //"https://neo.aboutdavid.me/coronavirus/",
+        "https://coolwebserver.neocities.org/",
+        "https://hecksn.neocities.org/",
+        "https://whirlboi.neocities.org/",
+        "https://wahid2012k.neocities.org/",
+        "https://joellmadrid.neocities.org/",
+        "https://cackldemonsam.neocities.org/",
+        "https://hoylecake.neocities.org/",
+        "https://necogames.neocities.org/",
+        "https://eligood.neocities.org/"];
+    
+    function randImg(index) {
+        var size = images.length;
+        var i;
+        if (index) {
+          i = index;
+        } else {
+          i = Math.floor(size * Math.random());
+        }
+        document.getElementById('image').style.backgroundImage = "url('"+images[i]+"')";
+        document.getElementById('imglink').href = links[i];
+        setTimeout(randImg, 30000);
+    }
+    
+    randImg();
+    </script>
+    
+    <div class="fixed">
+      <a href="https://googol.neocities.org/neolink" target="_blank" style="color:dimgray;">NeoLink Ads</a>
+    </div>
+    
+    <style>
+      div.fixed {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        padding: 4px;
+        border: 1px solid;
+        border-color: gray;
+        border-top-left-radius: 4px;
+        background-color: #ffffffc0;
+        font-size: x-small;
+        font-family: sans-serif;
+      }
+      a.wholepage {
+         position: absolute;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         width: 100%;
+         height: 100%;
+         text-indent: -9999px; /* we don't need to see the text, but some users and robots such as Google do */
+      }
+    </style>
+  </body>
+</html>
